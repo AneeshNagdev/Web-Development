@@ -1,0 +1,140 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif; 
+    line-height: 1.6;
+    background: linear-gradient(to right, #fdfbfb, #ebedee); 
+    color: #333;
+}
+
+
+header {
+    background: linear-gradient(to right, #2c3e50, #4ca1af); 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Merriweather', serif; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', Arial, sans-serif;
+    
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    font-size: 18px;
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;         
+    margin: 20px auto;      
+    max-width: 800px;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+section h2 {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.intro {
+    background: url(./background.png);
+    background-color: #f7f7f7;
+    background-size: cover;  
+    text-align: center;
+}
+
+figure img {
+    border-radius: 50%;
+    border: 3px solid #4ca1af;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+figure img:hover{
+    
+    border-radius: 50%;
+    border: 3px solid #4ca1af;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 8px;
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(to right, #2c3e50, #4ca1af); 
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    
+}
+
+footer p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+
+footer p a:hover{
+    text-decoration: underline;
+    color: #333;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    font-size: 20px;
+}
