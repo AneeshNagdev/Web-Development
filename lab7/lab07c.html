@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Image Upload</title>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #c8c8d6;
+            }
+
+            .formbox {
+                width: 500px;
+                background: rgba(89, 91, 230, 0.546);
+                margin: 50px auto;
+                padding: 20px;
+                border-radius: 8px;
+                border: 1px solid rgb(72, 59, 59);
+                color: white;
+            }
+
+            textarea {
+                width: 100%;
+                height: 120px;
+                margin-top: 10px;
+            }
+
+            #uploadfile {
+                margin-top: 10px;
+            }
+
+            #btn {
+                margin: 20px auto;
+                display: block;
+                width: 200px;
+                height: 40px;
+                border-radius: 9px;
+                border: 1px solid rgba(0, 0, 0, 0.402);
+
+            }
+
+            #btn:hover{
+                background-color: rgb(146, 144, 146);
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <div class="formbox">
+            <h2>Upload an Image and Enter Text</h2>
+
+            <form action="https://www2.cs.torontomu.ca/~anagdev/cgi-bin/lab07c.cgi" method="post" enctype="multipart/form-data">
+
+                <label>Enter text:</label>
+                <textarea name="usertext"></textarea>
+
+                <label>Choose an image to upload:</label>
+                <input type="file" id="uploadfile" name="imagefile">
+
+                <input type="submit" id="btn" value="Upload">
+            </form>
+        </div>
+
+    </body>
+</html>
