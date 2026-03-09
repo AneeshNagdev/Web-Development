@@ -6,3 +6,8 @@ This lab introduces server-side scripting using Perl.
 This part demonstrates the execution of a basic Perl CGI script that generates HTML content, creating a simple "My First Perl Program" page.
 
 **Live Demo:** [Part A - My First Perl Program](https://www2.cs.torontomu.ca/~anagdev/cgi-bin/lab07a.cgi)
+
+## Part B
+This part features a web form for a Bed and Breakfast Reservation.
+
+**Live Demo:** [Part B - Reservation Form](https://www2.cs.torontomu.ca/~anagdev/lab7/lab07b.html)
