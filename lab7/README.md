@@ -11,3 +11,8 @@ This part demonstrates the execution of a basic Perl CGI script that generates H
 This part features a web form for a Bed and Breakfast Reservation.
 
 **Live Demo:** [Part B - Reservation Form](https://www2.cs.torontomu.ca/~anagdev/lab7/lab07b.html)
+
+## Part C
+This part involves a form to upload an image and enter text, demonstrating file handling with Perl CGI.
+
+**Live Demo:** [Part C - Image Upload](https://www2.cs.torontomu.ca/~anagdev/lab7/lab07c.html)
