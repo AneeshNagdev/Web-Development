@@ -4,7 +4,9 @@ Welcome to my Web Development repository! This folder contains a comprehensive c
 
 ## 🚀 Overview
 
-This repository is structured as a series of progressive lab exercises, starting from basic HTML/CSS and advancing to server-side scripting. Each folder represents a distinct practical assignment focusing on specific web concepts.
+This repository is structured as a series of progressive lab exercises, starting from basic HTML/CSS and advancing to server-side scripting. Each folder represents a distinct practical assignment focusing on specific web concepts. 
+
+**Note: Each lab folder contains its own `README.md` file detailing the specific activities covered in that lab, along with a link to the live demo.**
 
 ## 📁 Repository Structure
 
